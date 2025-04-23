@@ -3,3 +3,5 @@ export interface Task {
   name: string;
   done: boolean;
 }
+
+export type TaskFilter = "all" | "active" | "completed";

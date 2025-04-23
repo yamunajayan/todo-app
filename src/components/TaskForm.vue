@@ -14,7 +14,7 @@ const formSubmit = () => {
 </script>
 
 <template>
-  <form class="flex flex-col pt-12" @submit.prevent="formSubmit">
+  <form class="flex flex-col pt-12 mb-10" @submit.prevent="formSubmit">
     <label class="text-xl font-bold text-gray-600 pb-2">Add new task</label>
     <input
       type="text"

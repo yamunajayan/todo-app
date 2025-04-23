@@ -10,7 +10,7 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <ul class="flex flex-col gap-2 w-full mt-4">
+  <ul class="flex flex-col gap-2 w-full my-10">
     <li
       v-for="task in props.tasks"
       :key="task.id"
